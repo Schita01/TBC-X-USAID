@@ -1,0 +1,73 @@
+@import url(https://db.onlinewebfonts.com/c/643121b5d2cc9943eff9b59054cc29ba?family=DIN+Next+Rounded+LT+W01+Light);
+
+:root {
+    --main-texts-color: rgb(244, 244, 244);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    max-width: 100%;
+    min-height: 400vh;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: gray;
+}
+
+.scroll{
+    background-color: #222222f2;
+    z-index: 999;
+    transition: .3s;
+}
+.container {
+    width: 1000px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+header {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1a1e1f;
+    position: fixed;
+    /* box-shadow: 0 0 5px rgba(0,0,0,.5); */
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    
+}
+
+.list li {
+    padding: 0 26px;
+    transition: color 0.4s ease 0s;
+    color: var(--main-texts-color);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #00a3e0;
+}
